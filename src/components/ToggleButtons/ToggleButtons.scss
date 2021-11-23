@@ -1,0 +1,44 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+.toggle__button,
+.toggle__button_disabled {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.toggle__button {
+  cursor: pointer;
+}
+
+.toggle__button_disabled {
+  cursor: not-allowed;
+}
+
+.toggle__content {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.toggle__content-left {
+  text-align: left;
+}
+
+.toggle__content-center {
+  text-align: center;
+}
+
+.toggle__content-right {
+  text-align: right;
+}
+
+.toggle__content-justify {
+  text-align: justify;
+}

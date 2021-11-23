@@ -1,0 +1,38 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accordion__action {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion__action-title {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.accordion__content {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.accordion__content-paragraph {
+  font-size: 16px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
